@@ -1,0 +1,41 @@
+li:nth-child(2)
+{
+    background-color: yellow;
+}
+input[type=email]{
+    border:2px solid orangered
+}
+.card,.feature{
+    color:red;
+}
+article p:first-of-type{
+    background-color: greenyellow;
+}
+h2+p{
+    background-color: grey;
+}
+button:hover{
+    border:2px solid black;
+}
+input[type=text]:focus
+{
+    border: 3px solid back;
+}
+li:first-child{
+    font-weight: bold;
+}
+li:last-child{
+    font-weight: lighter;
+}
+ul.second-list li:nth-child(3n+1){
+    color:blueviolet;
+}
+article h1::before{
+    content:"2026 ";
+}
+article h1::after{
+    content:" new edition"
+}
+a[href^="https"]{
+    color:red;
+}
