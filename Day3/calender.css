@@ -1,0 +1,63 @@
+.calander{
+    display:grid;
+    grid-template-columns: 50px repeat(7,120px);
+    grid-template-rows:auto;
+    row-gap:10px;
+    column-gap:6px;
+}
+.t{
+    height: 70px;
+    width:120px;
+    background-color: antiquewhite;
+    border:3px solid black;
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+t36,t43{
+    color:red;
+}
+.w{
+    height: 70px;
+    width:50px;
+    background-color: antiquewhite;
+    border:3px solid black;
+    border-radius:15px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(181, 245, 122);
+}
+.t1{
+ grid-column:3;
+}
+.e{
+    background-color: rgb(23, 212, 202);
+}
+.day::before{
+    content:"";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.s{
+    color:red;
+}
+.c{
+    background-color: pink;
+}
+@media (max-width:480px)
+{
+    .c,.w{
+        display:none
+    }
+    .calander{
+        display:block;
+    }
+    .t1{
+        column-span: 1;
+    }
+}

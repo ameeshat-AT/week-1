@@ -1,0 +1,32 @@
+.grid-autofill{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));
+    height: 30vh;
+    background-color: bisque;
+    gap:5px;
+}
+.grid-autofit{
+     display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));
+    height: 30vh;
+    background-color: bisque;
+    gap:5px;
+}
+.item{
+    background-color: aqua;
+}
+.responsive-grid{
+    display:grid;
+    grid-template-columns:repeat(5,200px);
+    grid-template-rows:repeat(3,200px);
+    height: 80vh;
+    background-color: bisque;
+    gap:5px;
+}
+.ritem8{
+    grid-column: auto/-1;
+}
+.featured{
+    grid-column:2/span 2;
+    grid-row:1/span 2;
+}

@@ -1,0 +1,73 @@
+.grid-container{
+    display:grid;
+    height:100vh;
+    background-color: rgb(250, 252, 252);
+    /* grid-template-columns:repeat(5,1fr);
+    grid-template-rows:repeat(7,1fr); */
+    gap:5px;
+    grid-template-areas:"header header header header header" "nav nav nav nav nav" "hero hero hero hero hero" "article1 article1 article1 article1 sidebar" "article2 article2 article2 article2 sidebar" "ad ad ad ad ad" " footer footer footer footer footer";
+}
+.header{
+    grid-area:header;
+    background-color: greenyellow;
+    text-align: center;
+}
+.nav{
+    grid-area:nav;
+    background-color: yellow;
+    text-align: center;
+}
+.hero{
+    grid-area:hero;
+    background-color: blue;
+    text-align: center;
+}
+.article1{
+    grid-area: article1;
+    background-color: blueviolet;
+    text-align: center;
+}
+.article2{
+    grid-area: article2;
+    background-color: rgb(191, 142, 236);
+    text-align: center;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(167, 27, 113);
+    text-align: center;
+}
+.ad{
+    grid-area: ad;
+    background-color: rgb(165, 122, 42);
+    text-align: center;
+}
+.foot{
+    grid-area: footer;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+@media (max-width:900px){
+    .grid-container{
+        grid-template-areas:"header header"
+        "nav nav" 
+        "hero hero" 
+        "article1 sidebar" 
+        "article2 sidebar"
+        "ad ad" 
+        "footer footer";
+    }
+}
+@media (max-width:600px){
+    .grid-container{
+        grid-template-areas:"header"
+        "nav" 
+        "hero" 
+        "article1" 
+        "article2"
+        "sidebar"
+        "ad" 
+        "footer";
+    }
+}
