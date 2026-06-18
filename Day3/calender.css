@@ -1,0 +1,69 @@
+.calander{
+    display:grid;
+    grid-template-columns: 50px repeat(7,120px);
+    grid-template-rows:auto;
+    row-gap:10px;
+    column-gap:6px;
+}
+.day{
+    height: 70px;
+    width:120px;
+    background-color: antiquewhite;
+    border:3px solid black;
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.week{
+    height: 70px;
+    width:50px;
+    background-color: antiquewhite;
+    border:3px solid black;
+    border-radius:15px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(181, 245, 122);
+}
+.first-day{
+ grid-column:3;
+}
+.e{
+    background-color: rgb(23, 212, 202);
+}
+.today::before{
+    content:"";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.holiday{
+    color:red;
+}
+.day-name{
+     height: 70px;
+    width:120px;
+    background-color: antiquewhite;
+    border:3px solid black;
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: pink;
+}
+@media (max-width:480px)
+{
+    .day-name,.week{
+        display:none
+    }
+    .calander{
+        display:block;
+    }
+    .firstday{
+        column-span: 1;
+    }
+}
