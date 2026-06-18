@@ -5,7 +5,7 @@
     row-gap:10px;
     column-gap:6px;
 }
-.t{
+.day{
     height: 70px;
     width:120px;
     background-color: antiquewhite;
@@ -16,10 +16,7 @@
     justify-content: center;
     font-size: 24px;
 }
-t36,t43{
-    color:red;
-}
-.w{
+.week{
     height: 70px;
     width:50px;
     background-color: antiquewhite;
@@ -30,34 +27,43 @@ t36,t43{
     justify-content: center;
     background-color: rgb(181, 245, 122);
 }
-.t1{
+.first-day{
  grid-column:3;
 }
 .e{
     background-color: rgb(23, 212, 202);
 }
-.day::before{
+.today::before{
     content:"";
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: brown;
 }
-.s{
+.holiday{
     color:red;
 }
-.c{
+.day-name{
+     height: 70px;
+    width:120px;
+    background-color: antiquewhite;
+    border:3px solid black;
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
     background-color: pink;
 }
 @media (max-width:480px)
 {
-    .c,.w{
+    .day-name,.week{
         display:none
     }
     .calander{
         display:block;
     }
-    .t1{
+    .firstday{
         column-span: 1;
     }
 }
