@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Day2-task1</title>
+    <script src="task1.js" defer></script>
+    <style>
+        .outer {
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 500px;
+        }
+
+        .middle {
+            height: 170px;
+            width: 170px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .inner {
+            height: 90px;
+            width: 90px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer" id="outer">
+        <div class="middle" id="middle">
+            <div class="inner" id="inner">
+                Click Me
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="outer" id="out">
+        <div class="middle" id="mid">
+            <div class="inner" id="in">
+                Click Me
+            </div>
+        </div>
+    </div>
+    <br>
+    <a id="link" href="https://www.w3schools.com/Jsref/tryit.asp?filename=tryjsref_event_preventdefault"
+        target="_blank">google</a>
+    <br>
+    <br>
+    <form>
+        <lable for="name">name:</lable>
+        <input type="text" id="name" name="name">
+        <button id="form" type="submit" id="submit">Submit</button>
+    </form>
+</body>
+
+</html>
