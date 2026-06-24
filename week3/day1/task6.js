@@ -18,28 +18,28 @@ name[2].style.color = "pink";
 name[3].style.color = "orange";
 //DOM traversal
 //walk to parent
-const temp=document.getElementsByClassName('select');
-const parent=temp[0].parentElement;
+const temp = document.getElementsByClassName('select');
+const parent = temp[0].parentElement;
 console.log(parent);
 //walk to first child
-const variable =document.getElementsByClassName('parent');
-const first_child=variable[0].firstElementChild;
+const variable = document.getElementsByClassName('parent');
+const first_child = variable[0].firstElementChild;
 console.log(first_child);
-const last_child=variable[0].lastElementChild;
+const last_child = variable[0].lastElementChild;
 console.log(last_child);
-const sibling=name[3].nextElementSibling;
+const sibling = name[3].nextElementSibling;
 console.log(sibling);
- // addCard using CreateElement and textContent
-const addCard=document.createElement("div");
- const new_title=document.createElement("h1");
- const main_body=document.createElement("p");
- const image=document.createElement("img");
- image.src="https://thumbs.dreamstime.com/b/human-face-isolated-white-background-spa-portrait-beautiful-fresh-healthy-woman-beauty-close-up-portrait-beautiful-126143418.jpg";
- image.alt="smiling face of Eliza";
-image.style.width="300px";
-image.id="eliza";
-main_body.textContent="I am assosiate Software Engineer currently working at AKGD technology";
-new_title.textContent="Eliza Ebraham";
+// addCard using CreateElement and textContent
+const addCard = document.createElement("div");
+const new_title = document.createElement("h1");
+const main_body = document.createElement("p");
+const image = document.createElement("img");
+image.src = "https://thumbs.dreamstime.com/b/human-face-isolated-white-background-spa-portrait-beautiful-fresh-healthy-woman-beauty-close-up-portrait-beautiful-126143418.jpg";
+image.alt = "smiling face of Eliza";
+image.style.width = "300px";
+image.id = "eliza";
+main_body.textContent = "I am assosiate Software Engineer currently working at AKGD technology";
+new_title.textContent = "Eliza Ebraham";
 document.body.appendChild(addCard);
 addCard.appendChild(image);
 addCard.appendChild(new_title);

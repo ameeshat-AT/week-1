@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>PQR technology|About</title>
+    <meta name="title" content="Contact">
+    <meta name="description" content="Contact PQR technology for inquiries and services">
+    <meta property="og:description" content="Contact PQR technology for inquiries and services">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact">
+    <meta property="og:image" content="https://codenex.in/wp-content/uploads/2024/05/about-hero.svg">
+    <script defer src="task8.js"></script>
+    <link rel="stylesheet" href="task8.css">
+    </link>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="#" class="logo">PQR technology</a>
+        </div>
+        <div class="header-right">
+            <nav class="nav" id="nav">
+                <button class="closebtn" onclick="closeDrawer()">close</button>
+                <a href="index.html" aria-label="to reach index page" style="font-size: 24px;">INDEX</a>
+
+                <a href="about.html" aria-label="to reach about page" style="font-size: 24px;">ABOUT</a>
+
+                <a href="services.html" aria-label="to reach services page" style="font-size: 24px;">SERVICES</a>
+
+                <a href="team.html" aria-label="to reach team page" style="font-size: 24px;">TEAM</a>
+
+                <a href="contact.html" aria-label="to reach contact page" aria-current="page"
+                    style="font-size: 24px;">CONTACT</a>
+            </nav>
+            <div class="menu-box" id="menu-box" aria-expanded="false" onclick="openDrawer()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </header>
+    <button id="overlay" class="overlay" onclick="closeDrawer()"></button>
+    <button id="theme-switch" aria-pressed="false">switch Theme</button>
+    <main>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <br>
+            <div>
+                <label for="select">Select the department</label>
+                <select id="select" name="department">
+                    <option value="development">Development Team</option>
+                    <option value="management">Management Team</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="msg">Drop message Here</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="check" name="newsletter_opt_in" value="yes">
+                <label for="check">Subscribe to our weekly newsletter for updates</label>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7839.5953625817965!2d76.12718529489875!3d10.750070398163373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7c0d83260c0bf%3A0x2574e79699abdcfd!2sKarakkad%2C%20Nagalassery%2C%20Kerala!5e0!3m2!1sen!2sin!4v1781539292007!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h1>Office Address</h1>
+        <br>
+        <address>
+            PQR innovation technology<br>
+            karakkad,Kerala,India<br>
+            phone=7046536278<br>
+            Email:pqr-technology@gmail.com
+        </address>
+    </main>
+    <hr>
+    <footer>
+        <br>
+        <p>WELCOME TO OUR PAGE</p>
+        <p>&copy;<a href=https://codenex.in/about-us-it-company-calicut/?_gl>2056 PQR technology</a></p>
+    </footer>
+</body>
+
+</html>
