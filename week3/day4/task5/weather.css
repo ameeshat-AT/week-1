@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+.weatherWrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    width:50vw;
+    height: 50vh;
+    background-color: aqua;
+    margin-inline:auto;
+    gap:40px;
+   }
+   form{
+    margin-inline:auto;
+    margin-top: 20px;
+    height: 40px;
+    width:400px;
+   }
+   input{
+    height: 100%;
+    width:300px;
+    border-radius:12px;
+   }
+   button{
+    height: 30px;
+    border-radius: 50px;
+    color:white;
+    background-color: rgb(150, 150, 236);
+   }
+   .data,.loading,.alert{
+    margin-inline:auto;
+    font-size: 25px;
+    width:300px;
+   }
