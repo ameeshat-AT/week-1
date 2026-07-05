@@ -1,0 +1,137 @@
+.container{
+    width:100vw;
+    height:100vh;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.image{
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:0.5;
+}
+.overlay{
+    position:absolute;
+    height: 565px;
+    width: 484px;
+    padding: 48px 28px 32px;
+    background-color: white;
+    opacity:1;
+    border-radius: 10px;
+    font-family: "commissioner";
+}
+body{
+    margin:0;
+}
+.main-heading{
+    height: 36px;
+    width: 444px;
+    padding: 0 20px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    font-size: 26px;
+}
+.form{
+    height: 533px;
+    width:484px;
+}
+ .first-field{
+    height:68px;
+    width:444px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:20px;
+}
+
+.second-field{
+    height:84px;
+    width:484px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:4px;
+    margin-top: 10px;
+}
+.third-field{
+    height:83px;
+    width:484px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:3px;
+}
+.fourth-field{
+    height:72px;
+    width:484px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:3px;
+}
+.fifth-field{
+height:133px ;
+width: 444px;
+padding: 0 20px 16px 20px;
+}
+.sixth-field{
+height: 17px;
+width: 484px;
+text-align: center;
+font-size: 14px;
+margin-top: 20px;
+}
+.field{
+    height:40px;
+    margin-top: 8px;
+    width:440px;
+    padding: 0;
+    position: relative;
+    border-radius: 6px;
+    border:1px solid rgb(160, 161, 159);
+    background-color: white;
+    /* box-shadow:0 0 0 1px aqua; */
+} 
+.type:focus{
+    box-shadow:0 0 0  4px aqua;
+}
+.orField{
+    display:flex;
+    height: 1px;
+    width:444px;
+    padding: 24px 0px;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+    opacity:0.6;
+    font-size: 14px;
+}
+.line{
+    height: 1px;
+    width:100%;
+    background-color: grey;
+}
+.create-account{
+    margin-top:18px;
+    height: 38px;
+    background-color:rgb(128, 128, 243);
+    font-size:14px;
+    color:white;
+}
+.signup{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-size: 14px;
+}
+@media (min-width:880px) and (max-width:1113px){
+    .overlay{
+    position:absolute;
+    height: 565px;
+    width: 484px;
+    padding: 48px 28px 32px;
+    background-color: white;
+    opacity:1;
+    border-radius: 10px;
+    font-family: "commissioner";
+}
+}
