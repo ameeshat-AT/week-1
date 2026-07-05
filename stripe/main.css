@@ -1,0 +1,378 @@
+@font-face {
+    font-family:"stripefont1";
+    src: url("Sohne.cb178166.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:"stripefont2";
+    src: url("SourceCodePro-Medium.f5ba3e6a.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: "stripefont1";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+     width:100vw;
+     height:100vh;
+     position: relative;
+}
+.header{
+    height:76px;
+    width:100vw;
+    border:1px solid rgb(194, 191, 191);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    margin:6px 18px ;
+    width:1262px;
+    height: 64px;
+    padding:10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.content:hover{
+    background-color:rgb(163, 162, 162);
+}
+.left{
+    display:flex;
+    gap:28px;
+    align-items: center;
+}
+.hidden{
+    display:flex;
+    gap:28px;
+}
+.nav{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.content:hover{
+    .sign-in{
+         border:1px solid rgb(221, 218, 218);
+         color:blue
+    }
+}
+.right{
+    display:flex;
+}
+.side{
+    display:flex;
+    gap:10px;
+}
+.sign-in{
+    background-color: white;
+    width:84.09px;
+    height:44px;
+    border:none;
+    border-radius: 6px;
+    color:orangered;
+    font-size: 14px;
+}
+.sign-in:hover{
+    border:1px solid rgb(7, 7, 116);
+    color: rgb(7, 7, 116);
+}
+.contact{
+    background-color: blue;
+    width:137.36px;
+    height:44px;
+    border:none;
+    border-radius: 6px;
+    color:white;
+    font-size: 14px;
+}
+.section1{
+    height:726.47px;
+    width:100vw;
+    padding:0 16px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    height:653.47px;
+    width:1264px;
+    padding:36px 16px;
+    border: 1px solid rgb(168, 170, 168);
+    border-top: none;
+    margin-top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+main{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.centerFooter{
+    height: 73px;
+    width:1264px;
+    border: 1px solid grey;
+    border-top: none;
+    overflow: hidden;
+}
+.width{
+    width:90%;
+    overflow: hidden;
+}
+.subCenter{
+    height:369.750px;
+    width:1232px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding-left: 9%;
+}
+.initial-heading{
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 500;
+}
+.invite{
+    width:183px;
+    height: 48px;
+    background-color: rgb(56, 56, 236);
+    color: white;
+    font-size: 14px;
+    border: 1px solid rgb(56, 56, 236);
+    border-radius: 5px;
+}
+img{
+    height: 40px;
+    width:200px;
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap:60px;
+    align-items: center;
+    justify-content: center;
+    animation:slide 20s linear infinite;
+    flex-shrink: 0; 
+}
+@keyframes slide {
+    0%{
+        transform:translateX(100%);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.section2{
+    height:2200px;
+    width:100vw;
+    padding:0 16px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.center2{
+    height:2200px;
+    width:1266px;
+    padding:96px 16px;
+    border: 1px solid rgb(168, 170, 168);
+    border-top: none;
+    margin-top: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:64px;
+}
+.para1{
+    padding-right: 40px;
+    width:856px;
+    height: 105.57px;
+    font-size: 32px;
+    font-weight:lighter;
+}
+.box1{
+    grid-area: box1;
+    background-image: url(https://images.stripeassets.com/fzn2n1nzq965/vYmk6v8n7oDAwbDpwhjV6/846f9b3e214549b8f14e2b8c8cfe9343/payment-bento-background.jpg?w=860&fm=webp&q=80);
+}
+.box2{
+    grid-area: box2;
+    background:  #8F7EFE;
+    background: linear-gradient(0deg, rgba(143, 126, 254, 1) 7%, rgba(185, 114, 247, 1) 16%, rgba(207, 124, 229, 1) 27%, rgba(237, 159, 198, 1) 39%, rgba(253, 222, 177, 1) 50%, rgba(253, 244, 227, 1) 67%, rgba(253, 244, 227, 1) 60%, rgba(253, 244, 227, 1) 55%, rgba(255, 255, 255, 1) 100%);
+}
+.box3{
+    grid-area: box3;
+}
+.box4{
+    grid-area: box4;
+}
+.box5{
+    grid-area: box5;
+}
+.box6{
+    grid-area: box6;
+    background-image: url(https://images.stripeassets.com/fzn2n1nzq965/1j4wM9h2bBsyRFvTv6Wsn0/07f4b9b1e1e17fdc509d9087454dd8bc/ConnectBentoBackground.jpg?w=1242&fm=webp&q=90);
+    background-size: cover;
+}
+.box{
+    border:1px solid grey;
+    border-radius: 10px;
+    width:100%;
+    height: 100%;
+    transform: scale(1);
+    transition: transform 0.3 ease;
+    padding: 20px;
+}
+.box:hover{
+    transform: scale(1.01);
+}
+.grid{
+display:grid;
+width:100%;
+height: 100%;
+gap:16px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:1fr 1fr 0.667fr;
+grid-template-areas:'box1 box1 box2'
+                    'box3 box4 box5'
+                    'box6 box6 box6';
+}
+.section3{
+    width:100vw;
+    height: 560px;
+    padding:0 16px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.center3{
+    height:560px;
+    width:1266px;
+    padding:80px 16px;
+    border: 1px solid rgb(168, 170, 168);
+    border-top: none;
+    margin-top: 0;
+}
+.section4{
+    width:100vw;
+    height:977.48px;
+    padding:0 16px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.boxbtn{
+    background-color:#DBD8ED;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    transform: scale(1);
+    transition:transform 0.3 ease;
+}
+.boxbtn:hover{
+    transform: scale(1.02);
+    background-color: blue;
+    color: white;
+}
+.svg:hover path{
+fill:rgb(247, 246, 246);
+}
+.boxheadwrap{
+    display: flex;
+    justify-content: space-between;
+}
+.boxhead{
+    min-height:29px;
+    font-size: 26px;
+    font-weight: 400;
+}
+.box1head{
+    max-width: 400px;
+}
+.phone{
+    width:308px;
+    height: 525px;
+    margin-top:70px;
+    margin-bottom: auto;
+}
+.screenshot{
+    width: 462px;
+    height: 500px;
+    margin-bottom: 0px;
+}
+.mainImage{
+   position: absolute;
+    top:0px;
+    left:700px;
+    height: 85%;
+    width:100%;
+    background-image: url(https://images.stripeassets.com/fzn2n1nzq965/115d4Vd5LVAsqFGDR1ClAv/0ceb2c44a7a7182cd624262420af7544/wave-fallback-desktop.png?w=1392&fm=webp&q=60);
+     background-size:contain;
+     z-index: -999;
+}
+.sessionImage{
+    height: 100%;
+    width:100%;
+     background-image: url(https://images.stripeassets.com/fzn2n1nzq965/2YFdgdFPeIiDpmQbhHPAx8/186752498bf713fea245f31bcec84f8a/sessions-2026-on-demand-bg.png?w=2464&fm=webp&q=90);
+    background-size: contain;
+    overflow:hidden;
+    border-radius:10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.session-bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.para{
+    color: white;
+    font-size: 48px;
+    width:40%;
+    margin-bottom:20px;
+}
+.watchnow{
+    width:138px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: blue;
+}
+.watchnow:hover{
+    color:black
+}
+.box3head{
+    max-width:250px;
+}
+.box4head{
+    max-width:240px;
+}
+.box5head{
+    max-width:270px;
+}
+.box6head{
+    max-width:220px;
+}
+.box6Img{
+    height:100%;
+    width:90%;
+    margin-right: 20px;
+}
+.img3,.img4,.img5{
+height: 80%;
+width:100%;
+}
