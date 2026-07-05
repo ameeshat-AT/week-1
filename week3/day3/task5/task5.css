@@ -1,0 +1,46 @@
+form{
+    height:700px;
+    width:500px;
+    background-color: antiquewhite;
+    margin-left: 400px;
+
+}
+.form-details{
+    width:100%;
+    height:20px;
+    display:grid;
+    gap:30px;
+    padding:30px;
+}
+input{
+    height:40px;
+    width:70%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+h1{
+    text-align:center;
+}
+button{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height: 40px;
+    border-radius: 100px;
+}
+input.isValid{
+    border:2px solid green;
+}
+input.isInvalid{
+    border:2px solid rgb(224, 53, 10);
+}
+input:focus{
+    outline: none;
+}
+span.error{
+    color: red;
+    font-size: 14px;
+    margin: 4px;
+    display:none;
+}

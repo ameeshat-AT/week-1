@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <script src="task6.js" defer></script>
+    <link rel="stylesheet" href="task6.css">
+</head>
+<body>
+    <main class="container">
+        <div class="layout">
+            <h2>OUR PRODUCTS</h2>
+            <div class="action-bar">
+                <button id="undoBtn" disable>Undo last Action</button>
+            </div>
+            <div class="items">
+                <div class="product-card">
+                    <img src="https://www.pebblecart.com/cdn/shop/files/0_2dda4e7a-fca3-4240-8a89-83fff440280e.jpg?v=1761390860&width=500">
+                    <h2>Earphone-pebble</h2>
+                    <span class="price">Price:$10</span>
+                    <button data-id="1" data-name="Earphone-pebble" data-price="10" class="button">ADD</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://www.milton.in/cdn/shop/files/breeze_750_blue.jpg?v=1773131193&width=1040">
+                    <h2>bottle</h2>
+                    <span class="price">Price:$50</span>
+                    <button data-id="2" data-name="bottle" data-price="50" class="button">ADD</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/81PtF30TLUL._AC_UY1100_.jpg">
+                    <h2>bag</h2>
+                    <span class="price">Price:$15</span>
+                    <button data-id="3" data-name="Bag" data-price="15" class="button">ADD</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0sJq-2-hcN0rElXH1zsWWa4KIvDXiuEV_g8xBLrgUbg&s=10">
+                    <h2>Book</h2>
+                    <span class="price">Price:$4</span>
+                    <button data-id="4" data-name="Book" data-price="4" class="button">ADD</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSG2z0S5MBSGfnbxgPGNcg9iDNVAefXVC6UEtu7K_DJw&s=10">
+                    <h2>T-shirt</h2>
+                    <span class="price">Price:$10</span>
+                    <button data-id="5" data-name="T-shirt" data-price="10" class="button">ADD</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdpSBugvbjLCUqH_36ssB3g29POm2I7U3YdykSiBcHVQ&s=10">
+                    <h2>Cricket Swing ball</h2>
+                    <span class="price">Price:$10</span>
+                    <button data-id="6" data-name="Cricket swing ball" data-price="10" class="button">ADD</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Basketball.png/250px-Basketball.png">
+                    <h2>Basket Ball</h2>
+                    <span class="price">Price:$10</span>
+                    <button data-id="7" data-name="Basketball" data-price="10" class="button">ADD</button>
+                </div>
+            </div>
+            <div id="cart-root" class="root">
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
