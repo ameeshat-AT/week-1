@@ -1,0 +1,51 @@
+.commentSection{
+    width:90vw;
+    padding:50px;
+    margin-left: 30px;
+    background-color: antiquewhite;
+    padding-top: 10px;
+    
+}
+h3{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:30vw;
+}
+button{
+    width:7vw;
+}
+.wrapper{
+    display:flex;
+    gap:50px;
+}
+.reply-form{
+    padding:30px;
+}
+.comment-header{
+    font-size: 15px;
+}
+.comment-body{
+    margin:10px;
+    font-size: 20px;
+}
+.comment-action{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.comment-node{
+    width:700px;
+}
+.comment-div{
+    background-color: rgb(238, 211, 176);
+}
+.replies-container{
+    margin: 0;
+    margin-left:70px;
+    margin-top: 3px;
+    
+}

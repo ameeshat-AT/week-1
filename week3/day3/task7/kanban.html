@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KANBAN BOARK</title>
+    <link rel="stylesheet" href="kanban.css">
+    <script src="kanban.js"defer></script>
+</head>
+<body>
+    <h1>Three-column Kanban</h1>
+    <div class="container">
+        <div class="card" data-status="todo">
+            <h3>To Do</h3>
+            <form class="form">
+                <input type="tex" placeholder="Add new item...">
+                <button type="submit">+</button>
+            </form>
+            <div class="class-list">
+                <div class="list" id="card1" draggable="true">wakeUp Early</div>
+                <div class="list" id="card2" draggable="true">Study Properly</div>
+            </div>
+        </div>
+        <div class="card" data-status="inprogress">
+            <h3>In Progress</h3>
+            <form class="form">
+                <input type="tex" placeholder="Add new item...">
+                <button type="submit">+</button>
+            </form>
+            <div class="class-list" >
+                <div class="list" id="card4" draggable="true">Complete task</div>
+                <div class="list" id="card3" draggable="true">Go to home</div>
+            </div>
+        </div>
+        <div class="card" data-status="done">
+            <h3>Done</h3>
+            <form class="form">
+                <input type="tex" placeholder="Add new item...">
+                <button type="submit">+</button>
+            </form>
+            <div class="class-list" ></div>
+        </div>
+    </div>
+</body>
+</html>
