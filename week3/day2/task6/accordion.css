@@ -1,0 +1,35 @@
+.accordion{
+    background-color: rgb(127, 182, 245);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    text-align:center;
+    padding: 10px;
+    width:21vw;
+    aspect-ratio: 4/0.7;
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+.content{
+     margin: 100px;
+     display:grid;
+}
+.panal{
+    width:20vw;
+    padding:10px;
+    background-color: bisque;
+    margin-top:0;
+    display: none;
+    
+}
+p{
+    margin: 0;
+    padding: 10px;
+}
+h{
+    margin-bottom: 50px;
+}
+.accordion:focus{
+    border:5px solid rebeccapurple;
+}
