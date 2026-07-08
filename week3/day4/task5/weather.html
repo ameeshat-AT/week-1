@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <script src="weather.js" defer></script>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <h1>Weather Detection</h1>
+    <div class="weatherWrapper">
+        <form>
+            <input type="text" placeholder="Enter the city...." id="input">
+            <button type="submit" id="btn">submit</button>
+        </form>
+        <div class="data" id="data">
+            <div>Temperature:<span id='temp'></span> <sup>o</sup>C</div>
+            <br>
+            <div>WindSpeed:<span id="wind"></span> Km/h</div>
+            <br>
+            <div>WeatherCode:<span id="code"></span></div>
+        </div>
+        <div id="alert"class=alert hidden>Something Went Wrong</div>
+        <div class="loading" id="load"><b>LOADING........</b></di>
+    </div>
+</body>
+</html>
