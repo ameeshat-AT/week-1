@@ -1,0 +1,21 @@
+.content{
+    max-width:600px;
+    margin:0 auto;
+}
+.item{
+    padding:20px;
+    border:1px solid black;
+    margin:10px 0;
+}
+.disable{
+    background-color: rgb(189, 216, 216);
+    border:10px solid rgb(54, 53, 53);
+    border-radius: 50%;
+    height: 70px;
+    width:70px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
