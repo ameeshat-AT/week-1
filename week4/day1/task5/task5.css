@@ -1,0 +1,33 @@
+.container {
+    background-color: antiquewhite;
+    position: relative;
+    border: 1px solid black;
+}
+
+img {
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    transform: translateX(-100%);
+    transition: 2s ease;
+}
+
+img.show {
+    transform: translateX(0);
+}
+
+#miniheader {
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    top: 10px;
+    border: 1px solid black;
+    text-align: center;
+    z-index: 1000;
+    color: brown;
+}
