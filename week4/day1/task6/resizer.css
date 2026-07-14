@@ -1,44 +1,51 @@
-.container{
-    display:flex;
+.container {
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.graph{
+
+.graph {
     background-color: bisque;
-    height:500px;
+    height: 500px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width:100vw;
-} 
-.box{
-width:12%;
-color:rgb(10, 10, 10);
-font-size: 14px;
-display: grid;
-align-items: center;
-justify-content: center;
-font-size: 18px;
+    width: 100vw;
 }
-.box1{
-    
-    height:90%;
-    background-color:rgb(126, 106, 145)
+
+.box {
+    width: 12%;
+    color: rgb(10, 10, 10);
+    font-size: 14px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
 }
-.box2{
-    height:70%;
-    background-color:rgb(194, 204, 108)
+
+.box1 {
+
+    height: 90%;
+    background-color: rgb(126, 106, 145)
 }
-.box3{
-    height:55%;
-    background-color:rgb(30, 196, 202)
+
+.box2 {
+    height: 70%;
+    background-color: rgb(194, 204, 108)
 }
-.box4{
-    height:80%;
-    background-color:rgb(230, 225, 235)
+
+.box3 {
+    height: 55%;
+    background-color: rgb(30, 196, 202)
 }
-.box5{
-    height:20%;
-    background-color:rgb(168, 121, 113)
+
+.box4 {
+    height: 80%;
+    background-color: rgb(230, 225, 235)
+}
+
+.box5 {
+    height: 20%;
+    background-color: rgb(168, 121, 113)
 }
