@@ -1,0 +1,28 @@
+#container{
+    height:600px;
+    overflow-y: auto;
+    position: relative;
+    border:1px solid black;
+}
+#list-spacer{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%
+}
+#visible{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    width:100%;
+    will-change:transform
+}
+.item-row{
+    height: 60px;
+    line-height: 40px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    background: white;
+}
