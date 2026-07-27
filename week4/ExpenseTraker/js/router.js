@@ -8,11 +8,13 @@ export const register = (path, component) => {
     const matches = cleanPath.match(/:[^\s/]+/g) || [];
     const paramNames = matches.map((key) => key.substring(1));
     routes.push({ regexPath, paramNames, component })
+    // console.log(regexPath);
 };
 const resolveRoute = () => {
     let currentPath = window.location.pathname;
     if (currentPath === '/' || currentPath === '/week4/ExpenseTraker/traker.html' || currentPath === "")
         currentPath = '/home';
+    // console.log(currentPath);
     for (const route of routes) {
         const match = currentPath.match(route.regexPath);
         if (match) {
